@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "for-kendo-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/forKendo/ForKendoWebPart.js",
+          "manifest": "./src/webparts/forKendo/ForKendoWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ForKendoWebPartStrings": "lib/webparts/forKendo/loc/{locale}.js"
+  }
+}
